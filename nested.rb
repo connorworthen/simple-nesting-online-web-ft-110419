@@ -60,7 +60,7 @@ def dennis_ritchies_language
         }
      }
 
-		 puts :dennis_ritchie[":languages"]
+		 puts :dennis_ritchie[:languages]
 end
 
 def adding_matz
