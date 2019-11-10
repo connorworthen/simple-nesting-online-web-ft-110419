@@ -22,7 +22,7 @@ end
 
 def alan_kay_is_known_for(hash, keypath)
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
-	keypath.reduce(programmer_hash) { |memo, key| memo.try(:dig, key) }
+	
 	programmer_hash =
  		{
         :grace_hopper => {
