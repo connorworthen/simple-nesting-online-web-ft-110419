@@ -22,7 +22,7 @@ end
 
 def alan_kay_is_known_for(hash, keypath)
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
-	
+
 	programmer_hash =
  		{
         :grace_hopper => {
@@ -39,7 +39,7 @@ def alan_kay_is_known_for(hash, keypath)
         }
      }
 
-
+programmer_hash[:dennis_ritchie][:known_for]
 
 end
 
