@@ -60,8 +60,7 @@ def dennis_ritchies_language
         }
      }
 
-programmer_hash.parse(result, symbolize_keys: true) 
-
+programmer_hash[(:dennis_ritchie=>["C"])*]
 end
 
 def adding_matz
